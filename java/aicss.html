@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>This is my animation</title>
+    <style>
+
+    .demo{
+        width: 400px;
+        height: 400px;
+        border:50px solid aqua;
+        border-top: 50px dotted blueviolet;
+        border-radius: 50%;
+        top: 30%;
+        left: 20%;
+        position: relative;
+       
+        }
+
+    .demo{
+        width: 400px;
+        height: 400px;
+        border:50px solid aqua;
+        border-top: 50px solid  springgreen;
+        border-radius: 50%;
+        top: 30%;
+        left: 20%;
+        position: relative;
+        animation: spin 3s  infinite;
+        }
+    @-webkit-keyframes spin{
+        0%{transform: rotate(0deg);}
+        30%{transform: rotate(360deg);}
+        60%{transform: rotate(0deg);}
+        100%{transform: rotate(360deg);}
+
+
+    }
+    
+    
+    
+    </style>
+
+    </head>
+    <body>
+        <div class="demo"></div>
+
+
+
+
+
+    </body>

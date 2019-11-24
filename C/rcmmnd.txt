@@ -1,0 +1,1 @@
+c running command gcc -o hello type.c
